@@ -13,7 +13,9 @@ header {
   background-color: #ff6d1e;
   position: fixed;
 }
-
+article{
+  margin: 0 auto;
+}
 #logo > img {
   width: 60px;
   margin-left: 10%;
