@@ -50,6 +50,7 @@ width: 57%;
 .content{
   display: inline-flex;
   margin-top: 60px;
+  justify-content: space-between;
 }
 .block_left{
   font-size: 11px;
