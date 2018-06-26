@@ -144,8 +144,59 @@ hr{
   display: block;
   text-decoration: none;
   color: White;
+  font-size: 14px;
+  margin-top: 5%;
 }
 .liens-bottom > p{
   color: White;
   font-weight: bold;
+}
+.liens-bottom > a:hover{
+  text-decoration: underline;
+}
+#logo1{
+  width: 115px;
+  margin-top: 1%;
+}
+select{
+  width: 80%;
+}
+footer{
+  background-color: #474747;
+}
+#hr {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.footer-bottom2{
+    background-color: #474747;
+    text-align: center;
+    color: White;
+    font-size: 12px;
+
+
+}
+.footer-bottom3{
+    background-color: #474747;
+    color: White;
+    font-size: 12px;
+    padding-bottom: 1%;
+}
+.float-left{
+  display: inline;
+  margin-left: 1%;
+
+}
+.float-right
+{
+  display: inline;
+  float: right;
+  margin-right: 1%;
+}
+#facebook{
+  width: 20px;
+
+}
+#twitter{
+  width: 20px;
 }
