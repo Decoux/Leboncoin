@@ -23,86 +23,101 @@
       <a href="">Se connecter</a>
     </div>
   </header>
-  <article>
+  <nav>
+    <form>
+      <div class="recherche1">
+        <input id="Recherche" type="text" name="" value="Que recherchez-vous ?">
+        <select id="monselect1">
+          <option value="Toutes categories">Toutes categories</option>
+        </select>
+        <button id="button2">Rechercher</button>
+      </div>
+      <div class="recherche2">
+      <div class="boutun">
+        <div class="button3">
+          <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+          <label for="subscribeNews">Recherche dans le titre uniquement.</label>
 
-    <div class="content">
-      <div class="block_left">
-        <div class="block_left2">
-        <span id="textBlack">Trouvez la bonne affaire parmi </span><span id="textOrange">27 621 422 petites annonces</span> <span id="textBlack">sur leboncoin.</span>
         </div>
-          <a id="colorBlue" href="annonces2.html">Déposer une annonce</a>
-          <a id="colorWhite" href="">Rechercher autour de moi</a>
+        <div>
+          <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+          <label for="subscribeNews">Annonces urgentes uniquement.</label>
+        </div>
       </div>
-      <div>
-        <img src="carteeee.png" width="471" height="498" border="0" usemap="#map" />
+      <div class="select">
+        <select id="monselect2">
+          <option value="Toute la France">Toute la France</option>
+        </select>
 
-        <map name="map">
-        <!-- #$-:Image map file created by GIMP Image Map plug-in -->
-        <!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
-        <!-- #$-:Please do not edit lines starting with "#$" -->
-        <!-- #$VERSION:2.3 -->
-        <!-- #$AUTHOR:DecouxPaul -->
-        <area shape="poly" coords="213,42,216,37,215,19,240,11,244,21,260,27,275,43,287,44,294,60,272,56,247,56,239,48,228,50,225,45,214,42" href="http://Nord Pas de Calais" />
-        <area shape="poly" coords="206,55,214,50,214,43,223,46,229,49,238,49,246,56,264,59,275,57,294,60,289,72,285,84,275,88,275,105,268,109,257,101,222,93,216,77,219,65,207,55" href="http://Picardie" />
-        <area shape="poly" coords="218,93,208,108,219,129,228,136,238,134,241,143,254,141,260,132,268,129,271,120,267,110,257,101,219,94" href="http://Paris" />
-        </map>
       </div>
-      <div class="Liste">
-        <ol id="list">
-          <li><a href="">Alsace</a></li>
-          <li><a href="">Aquitaine</a></li>
-          <li><a href="">Auvegne</a></li>
-          <li><a href="">Basse-Normandie</a></li>
-          <li><a href="">Bourogne</a></li>
-          <li><a href="">Bretagne</a></li>
-          <li><a href="">Centre</a></li>
-          <li><a href="">Champagne-Ardenne</a></li>
-          <li><a href="">Corse</a></li>
-          <li><a href="">Franche-comté</a></li>
-          <li><a href="">Haute-Normandie</a></li>
-          <li><a href="">Ile-de-France</a></li>
-          <li><a href="">Languedoc-Roussillon</a></li>
-          <li><a href="">Limousin</a></li>
-          <li><a href="">Lorraine</a></li>
-          <li><a href="">Midi-Pyrénnées</a></li>
-          <li><a href="">Nord-Pas-De-Calais</a></li>
-          <li><a href="">Pays de la Loire</a></li>
-          <li><a href="">Picardie</a></li>
-          <li><a href="">Poitou-charente</a></li>
-          <li><a href="">Provence-Alpes-Côte d'Azur</a></li>
-          <li><a href="">Rhone-Alpes</a></li>
-          <br />
-          <li><a href="">Guadeloupe</a></li>
-          <li><a href="">Martinique</a></li>
-          <li><a href="">Guyanne</a></li>
-          <li><a href="">Réunion</a></li>
-        </ol>
+      <input id="Recherche2" type="text" name="" value="Que recherchez-vous ?">
       </div>
+    </form>
+  </nav>
+  <article>
+    <div class="article1">
+      <p>Annonces : Toute la France</p>
+      <br />
     </div>
-    <div class="textBas">
-      <span>Sur le site </span>
-      <span><a href="">leboncoin.fr</a></span>
-      <span>, passez des </span>
-      <span><a href="">annonces gratuites</a></span>
-      <span> et sans commission. Vous pouvez </span>
-      <span><a href="">consulter des petites annonces</a></span>
-      <span>de </span>
-      <span><a href="">particuliers</a></span>
-      <span> et de</span>
-      <span><a href=""> professionnels</a></span>
-      <span> partout en France, que vous cherchiez des</span>
-      <span><a href=""> annonces immobilières</a></span>
-      <span>,</span>
-      <span><a href="">des voitures d'occasion</a></span>
-      <span>,</span>
-      <span><a href="">des offres d'emploi</a></span>
-      <span>,</span>
-      <span><a href="">des meubles</a></span>
-      <span>,</span>
-      <span><a href="">du matériel électronique </a></span>
-      <span>ou tout autre type</span>
-      <span><a href="">de produits d'occasion.</a></span>
+
+    <div class="onglet">
+      <span class="first">Toutes</span>
+      <span>Particuliers</span>
+      <span>Professionnels</span>
+      <select>
+        <option value="Toutes categories">Tri : Plus récentes</option>
+      </select>
     </div>
+    <a href="">
+      <div class="annonce1">
+        <div class="photo">
+          <img src="photo1.jpg">
+        </div>
+        <div>
+          <p class="b">Voiture</p>
+          <p>Vehicules</p>
+          <p>Lille 59 000</p>
+          <p class="prix">135 EUROS</p>
+        </div>
+        <div class="date">
+          <p>Aujourd'hui, 16h20</p>
+        </div>
+      </div>
+    </a>
+    <a href="">
+      <div class="annonce1">
+        <div class="photo">
+          <img src="photo2.jpg">
+        </div>
+        <div>
+          <p class="b">Voiture</p>
+          <p>Vehicules</p>
+          <p>Lille 59 000</p>
+          <p class="prix">135 EUROS</p>
+        </div>
+        <div class="date">
+          <p>Aujourd'hui, 16h20</p>
+        </div>
+      </div>
+    </a>
+
+      <a href="">
+        <div class="annonce1">
+          <div class="photo">
+            <img src="photo3.jpg">
+          </div>
+          <div>
+            <p class="b">Voiture</p>
+            <p>Vehicules</p>
+            <p>Lille 59 000</p>
+            <p class="prix">135 EUROS</p>
+          </div>
+          <div class="date">
+            <p>Aujourd'hui, 16h20</p>
+          </div>
+        </div>
+      </a>
+
 
   </article>
   <footer>

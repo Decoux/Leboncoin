@@ -1,0 +1,12 @@
+<img src="carteeee.xcf" width="471" height="498" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:DecouxPaul -->
+<area shape="poly" coords="213,42,216,37,215,19,240,11,244,21,260,27,275,43,287,44,294,60,272,56,247,56,239,48,228,50,225,45,214,42" href="http://Nord Pas de Calais" />
+<area shape="poly" coords="206,55,214,50,214,43,223,46,229,49,238,49,246,56,264,59,275,57,294,60,289,72,285,84,275,88,275,105,268,109,257,101,222,93,216,77,219,65,207,55" href="http://Picardie" />
+<area shape="poly" coords="218,93,208,108,219,129,228,136,238,134,241,143,254,141,260,132,268,129,271,120,267,110,257,101,219,94" href="http://Paris" />
+</map>
