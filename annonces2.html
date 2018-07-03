@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <a href="index.html"><img src="author_avatar.jpg"></a>
+    </div>
+    <div id="liens">
+      <a href="annonces2.html">DEPOSER UNE ANNONCE</a>
+      <a href="offres.html">OFFRES</a>
+      <a href="">DEMANDES</a>
+      <a href="">MES FAVORIS</a>
+      <a href="">BOUTIQUES</a>
+      <a href="">MESSAGES</a>
+    </div>
+    <div id="Se_connecter">
+      <a href="">Se connecter</a>
+    </div>
+  </header>
+  <article id="article">
+    <p>Déposer une annonce</p>
+    <hr id="trait1">
+    <br />
+    <form id="formular">
+      <div class="container">
+        <p>Votre annonce </p>
+      </div>
+      <div class="categorie">
+        <p>Catégorie *</p>
+        <select id="categorie">
+          <option value="">Choisissez une categorie</option>
+        </select>
+        <p>Vous êtes un *</p>
+        <form>
+          <input type="radio" name="gender" value="" checked> Particulier
+          <input type="radio" name="gender" value="">Professionnel
+        </form>
+        <div class="redblock">
+          <p>Si vous agissez à titre professionnel, vous devez créer un Compte professionnel.
+            A défaut, en application de l’article L 132-2 du Code de la consommation qui sanctionne les pratiques commerciales trompeuses,
+            vous encourez notamment une peine d’emprisonnement de 2 ans et une amende de 300 000 euros. Pour plus d'informations,
+             consultez <a href="">vos droits et obligations.</a></p>
+        </div>
+        <p>Type d'annonce *</p>
+        <form>
+          <input type="radio" name="gender" value="" checked> Offres
+          <input type="radio" name="gender" value="">Demandes
+        </form>
+          <p>Titre de l'annonce</p>
+           <input id="titre"type="text" name="">
+           <p>Texte de l'annonce * </p>
+           <textarea id="texte"></textarea>
+           <p>Prix</p>
+           <input type="text" name="" >
+           <p id="bold">Photos :</p><p> Une annonce avec photo est 7 fois plus consultée qu'une annonce sans photo</p>
+           <div class="pictures">
+             <a class="Photo1" href=""><p>Photo principal</p><img src="APPPHOTO.png"></a>
+             <a class="Photo" href=""><p>Photo 2<br/></p><img src="APPPHOTO.png"></a>
+             <a class="Photo" href=""><p>Photo 3<br/></p><img src="APPPHOTO.png"></a>
+             <a class="Photo2" href=""><p>7 Photo <br/>supplementaires</p><img src="APPPHOTO.png"></a>
+           </div>
+      </div>
+    </form>
+    <form>
+      <div class="container">
+        <p>Localisation</p>
+      </div>
+      <div class="categorie">
+        <div class="block">
+        <p>Ville ou code postal *</p>
+        <input id="Localisation" type="text" name="">
+        <p>Adresse</p>
+        <input id="Adresse" type="text" name="" value="Voie ou numero + voie">
+        <input id="button" type="button" value="Valider mon adresse">
+
+        <div class="bckgBlue">
+          <p>Complétez votre adresse et les personnes utilisant la recherche autour de soi trouveront plus facilement votre annonce.
+              Si vous ne souhaitez pas renseigner votre adresse exacte, indiquez votre rue sans donner le numéro.
+              Cette information ne sera conservée que le temps de la publication de votre annonce.
+          </p>
+        </div>
+        </div>
+        <div class="map">
+          <img id="map" src="mapfleche.png">
+        </div>
+      </div>
+    </form>
+    <form>
+      <div class="container">
+        <p>Vos informations</p>
+      </div>
+      <div class="categorie">
+        <p>Pseudo * </p>
+        <input type="text" name="" >
+        <p>Email * </p>
+        <input type="text" name="" >
+        <p>Téléphone * </p>
+        <input type="text" name="" >
+        <div class="button1">
+          <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+          <label for="subscribeNews">Masquer le numéro de téléphone dans l'annonce.</label>
+
+        </div>
+        <div class="button1">
+          <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+          <label for="subscribeNews">Je ne souhaite pas être solicité par des sociétés étrangères au site Leboncoin.fr</label>
+        </div>
+      </div>
+    </form>
+    <div class="floate-R">
+      <p>Champs obligatoires *</p>
+    </div>
+    <div class="Valid">
+      <input id="button-valid" type="submit" value="Valider">
+    </div>
+  </article>
+  <footer id="footer2">
+    <p>leboncoin 2006 - 2018</p>
+  </footer>
+</body>
+</html>
